@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+     <meta charset="utf-8"/>
+     <title>Tutorial OpenLayers - Parte 2: Capas de Google</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/foundation.css" />
+        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" href="css/misEstilos.css">
+        <link rel="stylesheet" href="css/responsive-tables.css">
+       <script type="text/javascript" src="js/responsive-tables.js"></script>
+
+     <link rel="stylesheet" href="OpenLayers-2.13.1/theme/default/google.css" type="text/css">
+     <script src="http://maps.google.com/maps/api/js?v=3.3&sensor=false"></script>
+     <script type="text/javascript" src="OpenLayers-2.13.1/OpenLayers.js"></script>
+     <script type="text/javascript">
+         function init() { 
+         format = 'image/png';
+         OpenLayers.ProxyHost="/cgi-bin/proxy.cgi?url=";
+         map = new OpenLayers.Map({
+         div: "map",
+         maxExtent: new OpenLayers.Bounds(
+         -20037508, -20037508, 20037508, 20037508.34
+         )
+         });
+     
+        // Adiciona los controles para dibujar poligonos
+        var vector_layer= new OpenLayers.Layer.Vector("Editable");
+        var edit_panel= new OpenLayers.Control.EditingToolbar(vector_layer);
+        var modify_feature_ctrl= new OpenLayers.Control.ModifyFeature(vector_layer,{
+            title:"Modify Feacture",
+            displayClass:"olControlModifyFeature"
+        });
+        edit_panel.addControls(modify_feature_ctrl);
+
+         var physical = new OpenLayers.Layer.Google(
+         "Google Physical",
+         {type: google.maps.MapTypeId.TERRAIN}
+         );
+         var streets = new OpenLayers.Layer.Google(
+         "Google Streets"
+         );
+         var hybrid = new OpenLayers.Layer.Google(
+         "Google Hybrid",
+         {type: google.maps.MapTypeId.HYBRID}
+         );
+         var satellite = new OpenLayers.Layer.Google(
+         "Google Satellite",
+         {type: google.maps.MapTypeId.SATELLITE}
+         );
+     
+     var wmsOverlay = new OpenLayers.Layer.WMS( "Mallorquin WMS",
+     "http://192.168.3.31:8080/geoserver/cite/wms?",
+     {layers: 'Mallorquin'},{isBaseLayer:false},{transparent:true});
+
+
+     wmsOverlay.setOpacity(0.5);
+
+     // Trae las caracteristicas del mapa
+    var info= new OpenLayers.Control.WMSGetFeatureInfo({
+        url:"http://192.168.3.31:8080/geoserver/cite/wms?",
+        title:"Caracteristicas",
+        queryVisible:true,
+        eventListeners:{
+            getfeatureinfo:function(event){
+//                if (popup==undefined){
+//                    map.removePopup(popup);
+//                }
+                popup= new OpenLayers.Popup.FramedCloud(
+                    "Chicken",
+                    map.getLonLatFromPixel(event.xy),
+                    new OpenLayers.Size(50,50),
+                    event.text,
+                    null,true);
+                map.addPopup(popup);
+            }
+        }
+    });
+
+
+     map.addLayers([physical, streets, hybrid, satellite, wmsOverlay]);
+     
+     map.addControl(info);
+     info.activate();
+
+     map.addControl(new OpenLayers.Control.LayerSwitcher());
+     map.addControl(new OpenLayers.Control.MousePosition({div: document.getElementById('punto')}));
+     map.addControl(new OpenLayers.Control.Scale());
+     
+     map.addControl(edit_panel);
+
+     var center = new OpenLayers.LonLat(-75, 10.95).transform(
+     new OpenLayers.Projection("EPSG:4326"),
+     map.getProjectionObject()
+     )
+     map.setCenter(center, 11);
+
+    map.events.register("mousemove", map, function (e) {
+        var position = this.events.getMousePosition(e);
+    //    var position = e.map.getLonLatFromViewPortPx(e.xy);
+    //    var position=e.map.getLonLatFromPixel(e.xy);
+//        OpenLayers.Util.getElement("location").innerHTML = position;
+    });
+
+    // support GetFeatureInfo
+                    map.events.register('click', map, function (e) {
+                        document.getElementById('nodelist').innerHTML = "Loading... please wait...";
+                        var params = {
+                            REQUEST: "GetFeatureInfo",
+                            EXCEPTIONS: "application/vnd.ogc.se_xml",
+                            BBOX: map.getExtent().toBBOX(),
+                            SERVICE: "WMS",
+                            INFO_FORMAT: 'text/html',
+                            QUERY_LAYERS: map.layers[4].params.LAYERS,
+                            FEATURE_COUNT: 50,
+                            Layers: 'cite:Mallorquin',
+                            WIDTH: map.size.w,
+                            HEIGHT: map.size.h,
+                            format: format,
+                            styles: map.layers[4].params.STYLES,
+                            srs: map.layers[4].params.SRS};
+                        
+                        // handle the wms 1.3 vs wms 1.1 madness
+                        if(map.layers[4].params.VERSION == "1.3.0") {
+                            params.version = "1.3.0";
+                            params.j = parseInt(e.xy.x);
+                            params.i = parseInt(e.xy.y);
+                        } else {
+                            params.version = "1.1.1";
+                            params.x = parseInt(e.xy.x);
+                            params.y = parseInt(e.xy.y);
+                        }
+                            
+                        // merge filters
+                        if(map.layers[4].params.CQL_FILTER != null) {
+                            params.cql_filter = map.layers[4].params.CQL_FILTER;
+                        } 
+                        if(map.layers[4].params.FILTER != null) {
+                            params.filter = map.layers[4].params.FILTER;
+    	                    }
+                        if(map.layers[4].params.FEATUREID) {
+                            params.featureid = map.layers[4].params.FEATUREID;
+                        }
+                        var resp=OpenLayers.Request.GET({
+    			url:"http://192.168.3.31:8080/geoserver/cite/wms", 
+    			params:params,
+    			callback: setHTML});
+
+                        OpenLayers.Event.stop(e);
+                    });
+    }
+
+                // sets the HTML provided into the nodelist element
+                function setHTML(resp){
+    		
+    	
+                    document.getElementById('nodelist').innerHTML = resp.responseText;
+                };
+     </script>
+
+ </head>
+ <body onload="init()">
+    <div class="row">
+        <div class="large-12 columns">
+          <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+              <li class="name">
+                <h1><a href="#">CRA</a></h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+            </ul>
+        
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="active"><a href="#">Mallorquin</a></li>
+            </ul>
+        
+          </section>
+        </nav>
+        
+    </div>
+        
+    </div>
+<div class="row">
+    <div class="large-12 columns">
+        <!-- <div class="panel"> -->
+              <div id="map"></div>
+        <!-- </div> -->
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+        <div class="row">
+            <div class="large-4 small-6 columns">
+                <div class="panel radius">
+                    <h6>Localizacion</h6>
+                    <div id="punto"></div>
+                </div>                
+            </div>
+            <div class="large-8 small-6 columns">
+                    <!-- Optional Classes: [callout radius] -->
+                <div class="panel">
+                    <div id="nodelist">
+                        <em>Click en el mapa para ver Caracteristicas</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright Ing.Henry Guzmán Escorcia.</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--      <div id="wrapper">
+	       <div id="punto">Punto</div>
+    </div>
+ --> </body>
+</html>

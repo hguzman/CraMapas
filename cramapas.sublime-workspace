@@ -1,0 +1,507 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"zf",
+				"zf-button	ZURB Foundation 5 Buttons"
+			],
+			[
+				"html",
+				"html5_foundation	html5_foundation"
+			],
+			[
+				"pa",
+				"pagoVehiculo"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"sql",
+				"sql2"
+			],
+			[
+				"zf-bu",
+				"zf-button	ZURB Foundation 5 Buttons"
+			],
+			[
+				"zf-o",
+				"zf-orbit	ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"htm",
+				"html5_foundation	html5_foundation"
+			],
+			[
+				"ht",
+				"html5_foundation	html5_foundation"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"control",
+				"controlador"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"va",
+				"validar"
+			],
+			[
+				"mysq",
+				"mysql_query"
+			],
+			[
+				"ca",
+				"categ"
+			],
+			[
+				"p",
+				"placa"
+			],
+			[
+				"res",
+				"respuesta"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"cat",
+				"categorias"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"rowI",
+				"rowInfo"
+			],
+			[
+				"nu",
+				"numero"
+			],
+			[
+				"ti",
+				"tipodoc"
+			],
+			[
+				"mi",
+				"miArray"
+			],
+			[
+				"mysql_row",
+				"mysql_num_rows"
+			],
+			[
+				"mysql_err",
+				"mysql_errno"
+			],
+			[
+				"Hol",
+				"HolaMundo"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"pro",
+				"productos"
+			],
+			[
+				"fo",
+				"FOREIGN"
+			],
+			[
+				"co",
+				"codigo_producto"
+			],
+			[
+				"ke",
+				"KEY"
+			],
+			[
+				"codi",
+				"codigo_producto"
+			],
+			[
+				"tab",
+				"TABLE"
+			],
+			[
+				"cre",
+				"CREATE"
+			],
+			[
+				"cod",
+				"codigo_programa"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/views/adios/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/views/cmyapp/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/helpers/cmyapp_helper.rb",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/controllers/cmyapp_controller.rb",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/views/layouts/application.html.erb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/controllers/application_controller.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/controllers/adios_controller.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/helpers/application_helper.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/helpers/adios_helper.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/controllers/cmyapp_controller.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/assets/stylesheets/cmyapp.css.scss",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/assets/stylesheets/application.css",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/assets/stylesheets/adios.css.scss",
+		"/Library/WebServer/Documents/cramapas/index.html",
+		"/Users/hguzman/Desarrollo/php/SenaPhp/guardar.php",
+		"/Library/WebServer/Documents/foundation/prueba5.html",
+		"/Library/WebServer/Documents/cramapas/cramapas.sublime-project",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/adicionarPagoVehiculo.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/consultaAnotaciones.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/cantidadAnotaciones.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/insertarVehiculo.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/guardarFormulario.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/formulario.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/verAntecedentes.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/registrarInformacion.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/consultaVehiculoPagos.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/informacionVehiculoPagos.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/categorias.php",
+		"/Users/hguzman/Desarrollo/ruby/myapp/Gemfile",
+		"/Library/WebServer/Documents/foundation/prueba3.html",
+		"/Library/WebServer/Documents/foundation/prueba4.html",
+		"/Library/WebServer/Documents/foundation/prueba2.html",
+		"/Library/WebServer/Documents/foundation/index.html",
+		"/Users/hguzman/Desarrollo/snippet/html5_foundation.sublime-snippet",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/views/cmyapp/index.html.erb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/helpers/cmyapp_helper.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/config/database.yml",
+		"/Users/hguzman/Desarrollo/ruby/myapp/config/environments/development.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/config/environments/production.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/config/routes.rb",
+		"/Users/hguzman/Desarrollo/ruby/myapp/app/views/adios/index.html.erb",
+		"/Users/hguzman/workspace/CarsOkWeb/FleteoWeb/extraeConsultados.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/extraeVotacion.php",
+		"/Library/WebServer/Documents/censo/index.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/antecedentes.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/pago.php",
+		"/Users/hguzman/Downloads/matriculados_placa.sql",
+		"/Users/hguzman/Downloads/matriculados_placa-2.sql",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/login.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/consultaVehiculo.php",
+		"/Users/hguzman/workspace/CarsOkWeb/gcmserver/send_message.php",
+		"/Users/hguzman/workspace/CarsOkWeb/gcmserver/GCM.php",
+		"/Users/hguzman/workspace/CarsOkWeb/gcmserver/config.php",
+		"/Users/hguzman/workspace/CarsOkWeb/gcmserver/register.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/conexion.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/insertarCategoria.php",
+		"/Users/hguzman/workspace/CarsOkWeb/gcmserver/db_functions.php",
+		"/Users/hguzman/Documents/cars-ok.com/FleteoWeb/BuscarVehiculo.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/subir.php",
+		"/Users/hguzman/workspace/CarsOkWeb/modelo/consultaVehiculo",
+		"/Users/hguzman/Downloads/Carsok.xml",
+		"/Library/WebServer/Documents/css/style.css",
+		"/Library/WebServer/Documents/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".</",
+			"`informacion`",
+			"informacion",
+			"matriculados_placa VALUES(",
+			"matriculados_placa",
+			"INSERT INTO `matriculados_placa` VALUES('140412', 4, '2014-01-02', 'información Vehículo', 'Motor=4Y0395576 Serie=JDA000F9800000613 Chasis=JDA000F9800000613 Marca=DAIHATSU Linea=ROCKY Color=VERDE Clase=Campero Modelo=1994 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('151712', 4, '2014-01-02', 'información Vehículo', 'Motor=749904 Serie=TS974511TFR161990 Chasis=TS974511 Marca=CHEVROLET Linea=LUV 2.300 Color=NEGRO Clase=Camioneta Modelo=1990 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('160402', 4, '2014-01-02', 'información Vehículo', 'Motor=3693660 Serie=86006013 Chasis=RN1067004279 Marca=TOYOTA Linea=HI-LUX Color=GRIS Clase=Camioneta Modelo=1994 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('316', 4, '2014-01-02', 'información Vehículo', 'Motor=246292 Serie=TSD42001 Chasis=TSD42001 Marca=CHEVROLET Linea=TROOPER Color=AZUL COBALTO Clase=CAMPERO Modelo=1993 Servicio=PARTICULAR');\nINSERT INTO `matriculados_placa` VALUES('368', 4, '2014-01-02', 'información Vehículo', 'Motor=4099939 Serie=RN1067008068 Chasis=RN1067008068 Marca=TOYOTA Linea=HI-LUX 4*4 DOBLE CAB Color=BLANCO ARAYA Clase=CAMIONETA Modelo=1995 Servicio=PARTICULAR');\nINSERT INTO `matriculados_placa` VALUES('AA0001', 4, '2014-01-02', 'información Vehículo', 'Motor=MOTORNUMEROMOTORNUME Serie=SERIALNUMEROSERIALNU Chasis=CHASISNUMEROCHASISNU Marca= Linea=LINEA............... Color= Clase=Buseta Modelo=1988 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0027', 4, '2014-01-02', 'información Vehículo', 'Motor=334899 Serie=5495067 Chasis=5495067 Marca=RENAULT Linea=R 4 EXPORT Color=HABANO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0045', 4, '2014-01-02', 'información Vehículo', 'Motor=E25415517 Serie=E45418655 Chasis=E45418655 Marca=LAND ROVER Linea=88\" Color=MARFIL-VERDE Clase=CAMPERO Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0046', 4, '2014-01-02', 'información Vehículo', 'Motor=462524 Serie=8299369 Chasis=8299369 Marca=RENAULT Linea=R 6 EXPORT Color=BEIGE Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0056', 4, '2014-01-02', 'información Vehículo', 'Motor=1054828 Serie=7456877 Chasis=7456877 Marca=RENAULT Linea=R 12 Color=AMARILLO Clase=CAMIONETA Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0066', 4, '2014-01-02', 'información Vehículo', 'Motor=321650 Serie=5411210 Chasis=5411210 Marca=RENAULT Linea=R 4 EXPORT Color=ROJO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0086', 4, '2014-01-02', 'información Vehículo', 'Motor=229815 Serie=1590 Chasis=1590 Marca=SIMCA Linea=1000 Color=BEIGE Clase=AUTOMOVIL Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0096', 4, '2014-01-02', 'información Vehículo', 'Motor=462086 Serie=8279824 Chasis=8279824 Marca=RENAULT Linea=R 6 Color=BLANCO Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0097', 4, '2014-01-02', 'información Vehículo', 'Motor=382960 Serie=8250246 Chasis=8250246 Marca=RENAULT Linea=R 6 EXPORT Color=BLANCO Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0099', 4, '2014-01-02', 'información Vehículo', 'Motor=331558 Serie=5428482 Chasis=5428482 Marca=RENAULT Linea=R 4 EXPORT Color=BLANCO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0178', 4, '2014-01-02', 'información Vehículo', 'Motor=P55610113M Serie=SP556101 Chasis=SP556101 Marca=SIMCA Linea=1300 Color=HABANO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0381', 4, '2014-01-02', 'información Vehículo', 'Motor=5B4G567096 Serie=648761 Chasis=648761 Marca=SIMCA Linea=1000 Color=AZUL Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0439', 4, '2014-01-02', 'información Vehículo', 'Motor=P60280624L Serie=LP602806 Chasis=LP602806 Marca=DODGE Linea=DART Color=ROJO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0631', 4, '2014-01-02', 'información Vehículo', 'Motor=505268 Serie=8334686 Chasis=8334686 Marca=RENAULT Linea=R 6 EXPORT Color=NARANJA Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA0661 ', 4, '2014-01-02', 'información Vehículo', 'Motor=6525151 Serie=6595925 Chasis=6595925 Marca=WARTBURG             Linea=*****                Color=AMARILLO             Clase=CAMIONETA            Modelo=1965 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA0881 ', 4, '2014-01-02', 'información Vehículo', 'Motor=011398ST55ZD              Serie=A55T073825                Chasis=A55T073825                Marca=CHEVROLET            Linea=55-1502              Color=GRIS                 Clase=AUTOMOVIL            Modelo=1955 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA0933 ', 4, '2014-01-02', 'información Vehículo', 'Motor=P6PA13378 Serie=***** Chasis=***** Marca=PONTIAC              Linea=*****                Color=AZUL                 Clase=AUTOMOVIL            Modelo=1948 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA1177', 4, '2014-01-02', 'información Vehículo', 'Motor=5SC00537 Serie=128415 Chasis=128415 Marca=DODGE Linea=D-1500 Color=AZUL CELESTE Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1206', 4, '2014-01-02', 'información Vehículo', 'Motor=P57103 Serie=L6013358 Chasis=L6013358 Marca=NISSAN Linea=PATROL Color=MARFIL Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1239 ', 4, '2014-01-02', 'información Vehículo', 'Motor=P25166066 Serie=13622391 Chasis=13622391 Marca=PLYMOUTH             Linea=SPORT                Color=AMARILLO-GRIS        Clase=AUTOMOVIL            Modelo=1954 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA1296', 4, '2014-01-02', 'información Vehículo', 'Motor=505331 Serie=8349163 Chasis=8349163 Marca=RENAULT Linea=R 6 EXPORT Color=BLANCO Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1307', 4, '2014-01-02', 'información Vehículo', 'Motor=337291 Serie=5495082 Chasis=5495082 Marca=RENAULT Linea=R 4 Color=BEIGE Clase=AUTOMOVIL Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1407', 4, '2014-01-02', 'información Vehículo', 'Motor=1168767 Serie=7471968 Chasis=7471968 Marca=RENAULT Linea=R 12 Color=HABANO Clase=CAMIONETA Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1414', 4, '2014-01-02', 'información Vehículo', 'Motor=44462E Serie=35837E112824 Chasis=35837E112824 Marca=OLDSMOBILE Linea=DINAMIC 88 Color=GRIS PLATEADO Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1415', 4, '2014-01-02', 'información Vehículo', 'Motor=E51704726 Serie=E45706926 Chasis=E45706926 Marca=LAND ROVER Linea=SANTANA Color=AZUL Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1427', 4, '2014-01-02', 'información Vehículo', 'Motor=E51704817 Serie=E45706994 Chasis=E45706994 Marca=LAND ROVER Linea=JEEP Color=MARFIL-VERDE Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1442', 4, '2014-01-02', 'información Vehículo', 'Motor=69G10154728 Serie=339890 Chasis=339890 Marca=GAZ Linea=69 M Color=AZUL Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1457 ', 4, '2014-01-02', 'información Vehículo', 'Motor=M015038E                  Serie=356695E11088              Chasis=356695E11088              Marca=OLDSMOBILE           Linea=*****                Color=AZUL                 Clase=AUTOMOVIL            Modelo=1965 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA1474', 4, '2014-01-02', 'información Vehículo', 'Motor=F247437 Serie=FJ4051927 Chasis=FJ4051927 Marca=TOYOTA Linea=FJ40 Color=MARFIL-VERDE Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1476', 4, '2014-01-02', 'información Vehículo', 'Motor=F249816 Serie=FJ4053170 Chasis=FJ4053170 Marca=TOYOTA Linea=LAND CRUISER Color=VERDE Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1507', 4, '2014-01-02', 'información Vehículo', 'Motor=NS60C11945 Serie=131310999F Chasis=131310999F Marca=WILLYS Linea=J-100-4 Color=ROJO Clase=CAMIONETA Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1509', 4, '2014-01-02', 'información Vehículo', 'Motor=T0389671 Serie=367148715 Chasis=367148712 Marca=VOLKSWAGEN Linea=VARIANT Color=AZUL Clase=CAMIONETA Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1513', 4, '2014-01-02', 'información Vehículo', 'Motor=E51807012 Serie=E45808452 Chasis=E45808452 Marca=LAND ROVER Linea=88\" Color=BLANCO-GRIS-MARFIL Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1534', 4, '2014-01-02', 'información Vehículo', 'Motor=69G10182733 Serie=382363 Chasis=382363 Marca=GAZ Linea=69 M Color=GRIS Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1568', 4, '2014-01-02', 'información Vehículo', 'Motor=F0975806 Serie=117167285 Chasis=117167285 Marca=VOLKSWAGEN Linea=1300 / 113 Color=ARENA DE PLAYA Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1571', 4, '2014-01-02', 'información Vehículo', 'Motor=5077713 Serie=P40450777139 Chasis=P40450777139 Marca=PEUGEOT Linea=404 Color=VERDE Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1580', 4, '2014-01-02', 'información Vehículo', 'Motor=23343 Serie=870523343 Chasis=870523343 Marca=JEEP Linea=***** Color=BLANCO-GRIS Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1583', 4, '2014-01-02', 'información Vehículo', 'Motor=C2731045738 Serie=78105738 Chasis=78105738 Marca=DODGE Linea=CORONET 440 Color=VERDE Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1584 ', 4, '2014-01-02', 'información Vehículo', 'Motor=F1210VJ Serie=333076M194323 Chasis=333076M194323 Marca=OLDSMOBILE           Linea=HOLIDAY              Color=BLANCO               Clase=AUTOMOVIL            Modelo=1966 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA1585', 4, '2014-01-02', 'información Vehículo', 'Motor=NS60C12339 Serie=131311103F Chasis=131311103F Marca=WILLYS Linea=JEEP Color=ROJO Clase=CAMIONETA Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1590', 4, '2014-01-02', 'información Vehículo', 'Motor=NS60C37725 Serie=131311099F Chasis=131311099F Marca=WILLYS Linea=JEEP Color=VERDE Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1635', 4, '2014-01-02', 'información Vehículo', 'Motor=2F062121 Serie=FJ4338613 Chasis=FJ4338613 Marca=TOYOTA Linea=FJ43 Color=ROJO Clase=CAMPERO Modelo=1976 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1652', 4, '2014-01-02', 'información Vehículo', 'Motor=69C10161674 Serie=356297 Chasis=356297 Marca=GAZ Linea=***** Color=CAFE OSCURO Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1659', 4, '2014-01-02', 'información Vehículo', 'Motor=1292201 Serie=1292201 Chasis=1292201 Marca=B.M.W Linea=1800 Color=AZUL Clase=AUTOMOVIL Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1691', 4, '2014-01-02', 'información Vehículo', 'Motor=5090594 Serie=5090594 Chasis=5090594 Marca=PEUGEOT Linea=404 Color=AZUL Clase=AUTOMOVIL Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1701', 4, '2014-01-02', 'información Vehículo', 'Motor=H5163621 Serie=118426670 Chasis=118426670 Marca=VOLKSWAGEN Linea=1300 L Color=HABANO Clase=AUTOMOVIL Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1709', 4, '2014-01-02', 'información Vehículo', 'Motor=P54485 Serie=L6011369 Chasis=L6011369 Marca=NISSAN Linea=PATROL Color=AZUL-CREMA Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1711', 4, '2014-01-02', 'información Vehículo', 'Motor=P63783 Serie=L6020305 Chasis=L6020305 Marca=NISSAN Linea=PATROL Color=AZUL Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1712', 4, '2014-01-02', 'información Vehículo', 'Motor=E51806175 Serie=E45807923 Chasis=E45807923 Marca=LAND ROVER Linea=SANTANA Color=GRIS Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1727', 4, '2014-01-02', 'información Vehículo', 'Motor=NS60C11902 Serie=131310975F Chasis=131310975F Marca=WILLYS Linea=J100 Color=ROJO Clase=CAMIONETA Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1747', 4, '2014-01-02', 'información Vehículo', 'Motor=5B4G565202 Serie=647027 Chasis=647027 Marca=SIMCA Linea=1000 Color=ROJO Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1751', 4, '2014-01-02', 'información Vehículo', 'Motor=TS60C38114 Serie=141311139F Chasis=141311139F Marca=WILLYS Linea=***** Color=AZUL Clase=CAMIONETA Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1752', 4, '2014-01-02', 'información Vehículo', 'Motor=CC22512193607 Serie=78113607 Chasis=78113607 Marca=DODGE Linea=CORONET Color=ROJO-VINOTINTO Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1760', 4, '2014-01-02', 'información Vehículo', 'Motor=2332747 Serie=2332747 Chasis=2332747 Marca=B.M.W Linea=2800 CSI Color=ROJO SAHARA Clase=AUTOMOVIL Modelo=1971 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1941', 4, '2014-01-02', 'información Vehículo', 'Motor=E51806593 Serie=E45808218 Chasis=E45808218 Marca=LAND ROVER Linea=SANTANA Color=MARFIL-VERDE Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1944', 4, '2014-01-02', 'información Vehículo', 'Motor=E51806222 Serie=E45807911 Chasis=E45807911 Marca=LAND ROVER Linea=SANTANA Color=VERDE CLARO Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1953', 4, '2014-01-02', 'información Vehículo', 'Motor=5090679 Serie=5090679 Chasis=5090679 Marca=PEUGEOT Linea=404 Color=VERDE Clase=AUTOMOVIL Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1983', 4, '2014-01-02', 'información Vehículo', 'Motor=4J482206 Serie=8305014250797 Chasis=8305014250797 Marca=WILLYS Linea=JEEP Color=MARFIL-VERDE Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA1998', 4, '2014-01-02', 'información Vehículo', 'Motor=198258 Serie=347467 Chasis=347467 Marca=FIAT Linea=POLSKI Color=NEGRO-VERDE Clase=AUTOMOVIL Modelo=1975 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2021', 4, '2014-01-02', 'información Vehículo', 'Motor=69G10174650 Serie=380060 Chasis=380060 Marca=GAZ Linea=69 - AM Color=GRIS Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2204 ', 4, '2014-01-02', 'información Vehículo', 'Motor=P45574                    Serie=LG6001516                 Chasis=LG6001516                 Marca=NISSAN               Linea=PATROL LG-60         Color=AZUL-MARFIL          Clase=CAMPERO              Modelo=1965 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA2309', 4, '2014-01-02', 'información Vehículo', 'Motor=P67995 Serie=L6025629 Chasis=L6025629 Marca=NISSAN Linea=PATROL Color=MARFIL-ROJO Clase=CAMPERO Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2319', 4, '2014-01-02', 'información Vehículo', 'Motor=F309584 Serie=FJ4081133 Chasis=FJ4081133 Marca=TOYOTA Linea=LAND CRUISER Color=VERDE Clase=CAMPERO Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2323', 4, '2014-01-02', 'información Vehículo', 'Motor=688100809 Serie=7801627 Chasis=7801627 Marca=RENAULT Linea=R 6 Color=AZUL Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2334', 4, '2014-01-02', 'información Vehículo', 'Motor=265024 Serie=526242 Chasis=526242 Marca=SIMCA Linea=1000 Color=ROJO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2340', 4, '2014-01-02', 'información Vehículo', 'Motor=217763 Serie=4697913 Chasis=4697913 Marca=RENAULT Linea=R 4 EXPORT Color=AMARILLO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2342', 4, '2014-01-02', 'información Vehículo', 'Motor=191977 Serie=4672644 Chasis=4672644 Marca=RENAULT Linea=R 4 EXPORT Color=AZUL Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2344', 4, '2014-01-02', 'información Vehículo', 'Motor=30399 Serie=1160032309 Chasis=1160032309 Marca=FIAT Linea=ZASTAVA Color=ROJO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2346', 4, '2014-01-02', 'información Vehículo', 'Motor=230310 Serie=4706181 Chasis=4706181 Marca=RENAULT Linea=R 4 EXPORT Color=BLANCO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2347', 4, '2014-01-02', 'información Vehículo', 'Motor=FP21231 Serie=8184804 Chasis=8184804 Marca=DODGE Linea=DART Color=BEIGE Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2359', 4, '2014-01-02', 'información Vehículo', 'Motor=266272 Serie=4760479 Chasis=4760479 Marca=RENAULT Linea=R 4 EXPORT Color=AZUL Clase=CAMIONETA Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2368 ', 4, '2014-01-02', 'información Vehículo', 'Motor=P72953                    Serie=LG6017782                 Chasis=LG6017782                 Marca=NISSAN               Linea=PATROL               Color=MARFIL-VERDE         Clase=CAMPERO              Modelo=1970 Servicio=SSERVICIO');\nINSERT INTO `matriculados_placa` VALUES('AA2373', 4, '2014-01-02', 'información Vehículo', 'Motor=60609 Serie=870501660609 Chasis=870501660609 Marca=WILLYS Linea=COMANDO Color=AMARILLO-NEGRO Clase=CAMPERO Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2374', 4, '2014-01-02', 'información Vehículo', 'Motor=E51910142 Serie=E45910744 Chasis=E45910744 Marca=LAND ROVER Linea=JEEP Color=AZUL-MARFIL Clase=CAMPERO Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2380', 4, '2014-01-02', 'información Vehículo', 'Motor=253639 Serie=524853 Chasis=524853 Marca=SIMCA Linea=1000 Color=AZUL Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2397', 4, '2014-01-02', 'información Vehículo', 'Motor=HU14729 Serie=69461650 Chasis=69461650 Marca=VIASA Linea=C-101 Color=BLANCO-NEGRO Clase=CAMPERO Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2406', 4, '2014-01-02', 'información Vehículo', 'Motor=V0916CNZ2829 Serie=164690T125413 Chasis=164690T125413 Marca=CHEVROLET Linea=IMPALA Color=NEGRO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2407', 4, '2014-01-02', 'información Vehículo', 'Motor=HU15521 Serie=13460386 Chasis=13460386 Marca=VIASA Linea=C-101 Color=VERDE Clase=CAMPERO Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2409', 4, '2014-01-02', 'información Vehículo', 'Motor=256589 Serie=524987 Chasis=524987 Marca=SIMCA Linea=1000 Color=HABANO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2426', 4, '2014-01-02', 'información Vehículo', 'Motor=H1231277 Serie=1102839982 Chasis=1102839982 Marca=VOLKSWAGEN Linea=***** Color=BLANCO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2430', 4, '2014-01-02', 'información Vehículo', 'Motor=FP20527 Serie=8178388 Chasis=8178388 Marca=DODGE Linea=DART Color=BLANCO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2431', 4, '2014-01-02', 'información Vehículo', 'Motor=FP20608 Serie=8179153 Chasis=8179153 Marca=DODGE Linea=DART Color=AZUL Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2436', 4, '2014-01-02', 'información Vehículo', 'Motor=F0878282 Serie=117084238 Chasis=117084238 Marca=VOLKSWAGEN Linea=***** Color=HABANO Clase=AUTOMOVIL Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2440', 4, '2014-01-02', 'información Vehículo', 'Motor=E51907934 Serie=E45909068 Chasis=E45909068 Marca=LAND ROVER Linea=SANTANA Color=AZUL Clase=CAMPERO Modelo=1968 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2449', 4, '2014-01-02', 'información Vehículo', 'Motor=114000093052 Serie=114B108196189 Chasis=114B108196189 Marca=FIAT Linea=2300 Color=BLANCO Clase=CAMIONETA Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2460', 4, '2014-01-02', 'información Vehículo', 'Motor=64416 Serie=8705010664416 Chasis=8705010664416 Marca=WILLYS Linea=COMANDO Color=CREMA Clase=CAMPERO Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2471', 4, '2014-01-02', 'información Vehículo', 'Motor=E25001325 Serie=E45011837 Chasis=E45011837 Marca=LAND ROVER Linea=SANTANA Color=AZUL-BLANCO Clase=CAMPERO Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2476', 4, '2014-01-02', 'información Vehículo', 'Motor=P0002408 Serie=367090592 Chasis=367090592 Marca=VOLKSWAGEN Linea=VARIANT Color=ARENA DE PLAYA Clase=CAMIONETA Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2479', 4, '2014-01-02', 'información Vehículo', 'Motor=P077557 Serie=L6031658 Chasis=L6031658 Marca=NISSAN Linea=PATROL L60 Color=MARFIL-VERDE OSC Clase=CAMPERO Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2494', 4, '2014-01-02', 'información Vehículo', 'Motor=FP20744 Serie=8179997 Chasis=8179997 Marca=DODGE Linea=DART Color=CEREZA Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2495', 4, '2014-01-02', 'información Vehículo', 'Motor=18095410019997 Serie=11401510031415 Chasis=11401510031415 Marca=MERCEDES BENZ Linea=230 Color=AZUL Clase=AUTOMOVIL Modelo=1969 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2505', 4, '2014-01-02', 'información Vehículo', 'Motor=EC105391 Serie=EJ021005 Chasis=EJ021005 Marca=SEAT Linea=850 SPECIAL Color=AZUL Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2514', 4, '2014-01-02', 'información Vehículo', 'Motor=P55811 Serie=LG6005178 Chasis=LG6005178 Marca=NISSAN Linea=PATROL LG-60 Color=AZUL-MARFIL Clase=CAMPERO Modelo=1967 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2521', 4, '2014-01-02', 'información Vehículo', 'Motor=125BC0000352739 Serie=124BC10124882 Chasis=124BC10124882 Marca=FIAT Linea=124 Color=TABACO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nINSERT INTO `matriculados_placa` VALUES('AA2524', 4, '2014-01-02', 'información Vehículo', 'Motor=FP20883 Serie=8181060 Chasis=8181060 Marca=DODGE Linea=DART Color=NEGRO-ROJO Clase=AUTOMOVIL Modelo=1970 Servicio=Particular');\nmatriculados_placa",
+			"top",
+			"avatar48",
+			"image avatar48",
+			"avatar",
+			"',');",
+			"value('','",
+			"	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"informacion (placa,idcategoria,fechainfo,titulo,descripcion)",
+			"informacion (placa,idcategoria,fechainfo,titulo,descripcion) VALUES(",
+			"informacion",
+			"');",
+			"value('",
+			"','"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/views/adios/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/views/cmyapp/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/helpers/cmyapp_helper.rb",
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/hguzman/Desarrollo/ruby/myapp/app/controllers/cmyapp_controller.rb",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}
